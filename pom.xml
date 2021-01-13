@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		 <sonar.host.url>http://ec2-52-91-76-13.compute-1.amazonaws.com:9000/</sonar.host.url>
+		 <sonar.host.url>http://ec2-54-210-220-90.compute-1.amazonaws.com:9000/</sonar.host.url>
 		 <sonar.login>b715917b958f81b9cab388688c558445d532bb0c</sonar.login>
                <!--
 		<sonar.login>admin</sonar.login>
@@ -101,13 +101,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>relase</name>
-	      <url>http://ec2-3-94-131-174.compute-1.amazonaws.com:8081/repository/amazon-release/</url>
+	      <url>http://ec2-54-205-163-16.compute-1.amazonaws.com:8081/repository/amazon-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name> Snapshot</name>
-	      <url>http://ec2-3-94-131-174.compute-1.amazonaws.com:8081/repository/amazon-snapshot/</url>
+	      <url>http://ec2-54-205-163-16.compute-1.amazonaws.com:8081/repository/amazon-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
